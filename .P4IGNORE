@@ -1,0 +1,149 @@
+###############################################################################
+###
+###  General
+###
+###############################################################################
+
+# directories
+bin/
+obj/
+DerivedDataCache/
+Intermediate/
+Binaries/
+Saved/
+ShaderCompileWorker/DDC/
+.vs/
+FileOpenOrder/
+ipch/
+
+# Ignore JetBrain's IDE folders
+.idea/
+.gradle/
+
+# Ignore RiderLink Engine source; managed by Rider
+**/Plugins/Marketplace/Developer/RiderLink/*
+# Ignore RiderLink Project source; managed by Rider
+**/Plugins/Developer/RiderLink/*
+
+# mono files
+*.dll.mdb
+
+# files
+.vsconfig
+*.suo
+*.user
+*.pdb
+*.opensdf
+*.sdf
+*.tmp
+*.mdb
+*.vcxproj
+*.sln
+*-Debug.*
+*.xcworkspace
+*.xcodeproj
+.uedependencies
+*.csproj.user
+*.csproj.*.cache
+
+# UBT Plugin .csproj.props can be ignored, this is generated
+Engine/Plugins/**/Source/**/*.ubtplugin.csproj.props
+
+# Ignore Python cached files
+*.pyc
+
+# Ignore Mac desktop services store files
+.DS_Store
+
+# xcode / ios
+Development-iphoneos/
+xcuserdata/
+*.xcodeproj/xcshareddata
+*.xcodeproj/project.pbxproj
+*.xcodeproj/*/xcshareddata/
+*.xcworkspace/contents.xcworkspacedata
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Ignore linux project files
+*.user
+*.pro
+*.pri
+*.kdev4
+
+# Ignore Unix backup files
+*~
+
+# Destination of compiled UAT scripts
+Engine/Binaries/DotNET/AutomationScripts
+Engine/Programs/UnrealBuildTool/Log*.*
+*.uatbuildrecord
+*.tmp
+
+# Editor artifacts that are not checked in
+UnrealEditor.app
+UnrealEditor.dSYM
+UnrealEditor.version
+UnrealEditor-*.dylib
+UnrealEditor-*.dSYM
+UnrealEditor.modules
+UnrealEditor.version
+UnrealEditor.target
+ShaderCompileWorker
+ShaderCompileWorker-*.dSYM
+ShaderCompileWorker-*.dylib
+ShaderCompileWorker.modules
+ShaderCompileWorker.version
+ShaderCompileWorker.target
+UnrealHeaderTool
+UnrealHeaderTool*.dSYM
+UnrealHeaderTool*.dylib
+UnrealHeaderTool.modules
+UnrealHeaderTool.version
+UnrealHeaderTool.target
+
+# Ignore crash reports
+crashinfo--*
+
+# Intermediary Files
+*.target.xml
+*.exe.config
+*.exe.manifest
+
+# Ignore personal workspace vars
+p4config.txt
+
+# Ignore sync scratch file
+/.p4sync.txt
+
+# Ignore Git
+.git/
+.gitignore
+.gitattributes
+
+###############################################################################
+###
+###		Unreal Projects
+###
+###############################################################################
+
+# Ignore all Local Developer Plugins
+Plugins/Developer/*
+
+Build/
+!Build/BuildAndSubmit.bat
+!Build/UnrealGameSync.ini
+
+###############################################################################
+###
+###  Lyra
+###
+###############################################################################
+
+# Ignore all Local Developer Plugins
+Samples/Games/Lyra/Plugins/Developer/*
+Samples/Games/Lyra/**/Plugins/Developer/*
