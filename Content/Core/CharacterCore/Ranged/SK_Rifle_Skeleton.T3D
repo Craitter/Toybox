@@ -1,0 +1,30 @@
+Begin Object Class=/Script/Engine.Skeleton Name="SK_Rifle_Skeleton"
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_4"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_3"
+   End Object
+   Begin Object Class=/Script/Engine.SkeletalMeshSocket Name="SkeletalMeshSocket_0"
+   End Object
+   Begin Object Name="SkeletalMeshSocket_4"
+      SocketName="ShellEject_0"
+      BoneName="Root"
+      RelativeLocation=(X=12.049096,Y=2.125449,Z=8.227567)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_3"
+      SocketName="ShellEject"
+      BoneName="Root"
+      RelativeLocation=(X=12.049096,Y=3.501505,Z=8.227567)
+   End Object
+   Begin Object Name="SkeletalMeshSocket_0"
+      SocketName="Muzzle"
+      BoneName="Barrel"
+      RelativeLocation=(X=31.294952,Y=0.000000,Z=0.000000)
+   End Object
+   BoneTree(7)=()
+   VirtualBoneGuid=5D9D1E99436194B65C775D819D873A71
+   Sockets(0)=/Script/Engine.SkeletalMeshSocket'"SkeletalMeshSocket_0"'
+   Sockets(1)=/Script/Engine.SkeletalMeshSocket'"SkeletalMeshSocket_3"'
+   Sockets(2)=/Script/Engine.SkeletalMeshSocket'"SkeletalMeshSocket_4"'
+   SlotGroups(0)=(SlotNames=("DefaultSlot"))
+   PreviewSkeletalMesh="/Game/Weapons/Rifle/Mesh/SK_Rifle.SK_Rifle"
+End Object

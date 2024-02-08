@@ -1,0 +1,18 @@
+Begin Object Class=/Script/Engine.PhysicsAsset Name="SK_Rifle_PhysicsAsset"
+   Begin Object Class=/Script/Engine.SkeletalBodySetup Name="SkeletalBodySetup_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="SkeletalBodySetup_0"
+      AggGeom=(BoxElems=((Center=(X=5.257524,Y=-0.000000,Z=6.608644),X=61.500000,Y=5.500000,Z=16.000000,Name="Grip_box"),(Center=(X=14.891880,Y=-0.000000,Z=-3.824984),Rotation=(Pitch=15.981698,Yaw=0.000000,Roll=0.000000),X=7.500000,Y=2.500000,Z=11.000000,Name="Grip_box")),SphylElems=((Center=(X=53.616154,Y=0.016620,Z=8.588826),Rotation=(Pitch=-0.000000,Yaw=90.029816,Roll=-89.558800),Radius=3.215672,Length=28.853134)))
+      BoneName="Grip"
+      CollisionTraceFlag=CTF_UseSimpleAsComplex
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   PreviewSkeletalMesh="/Game/Weapons/Rifle/Mesh/SK_Rifle.SK_Rifle"
+   BoundsBodies(0)=0
+   SkeletalBodySetups(0)=/Script/Engine.SkeletalBodySetup'"SkeletalBodySetup_0"'
+   SolverSettings=(CullDistance=1.000000,bUseLinearJointSolver=False)
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object
